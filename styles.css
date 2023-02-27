@@ -1,35 +1,63 @@
-main{
-    position: absolute;
-    border-style: solid;
-    width: 550px;
-    height: 800px;
-    left: 200px;
+h1 {
+  display: flex;
+  border-style: solid;
+  justify-content: center;
+  width: 100%;
+}
+.main-content {
+  border-style: solid;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 890px;
+  margin: 0 auto;
+}
+.mark {
+  display: flex;
+  position: absolute;
+  color: aquamarine;
+  width: 5rem;
+  top: 100px;
+  right: 250px;
+}
 
+.question-card {
+  display: flex;
+  border-style: solid;
+  border-radius: 15px;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 250px;
 }
-h1{
-    display: flex;
-    border-style: solid;
-   justify-content: center;
+.answer {
+  display: flex;
 }
-.qa1{
-    display: flex;
-    position: fixed;
-    border-style: solid;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 450px;
-    height: 250px;
-    left: 250px;
-
+nav {
+  display: flex;
+  position: fixed;
+  border-style: solid;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
 }
-.qa2{
-    display: flex;
-    position: fixed;
-    border-style: solid;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 450px;
-    height: 250px;
-    top: 400px;
-    left: 250px;
+.tags {
+  display: flex;
+  gap: 5rem;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+}
+.mark {
+  display: flex;
+  position: absolute;
+  color: aquamarine;
+  width: 5rem;
+  top: 100px;
+  right: 250px;
 }
