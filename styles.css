@@ -17,11 +17,8 @@ h1 {
 }
 .mark {
   display: flex;
-  position: absolute;
+  position: fixed;
   color: aquamarine;
-  width: 5rem;
-  top: 100px;
-  right: 250px;
 }
 
 .question-card {
@@ -60,4 +57,7 @@ nav {
   width: 5rem;
   top: 100px;
   right: 250px;
+}
+button:hover {
+  background-color: aqua;
 }
