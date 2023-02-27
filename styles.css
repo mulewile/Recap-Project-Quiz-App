@@ -1,0 +1,35 @@
+main{
+    position: absolute;
+    border-style: solid;
+    width: 550px;
+    height: 800px;
+    left: 200px;
+
+}
+h1{
+    display: flex;
+    border-style: solid;
+   justify-content: center;
+}
+.qa1{
+    display: flex;
+    position: fixed;
+    border-style: solid;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    left: 250px;
+
+}
+.qa2{
+    display: flex;
+    position: fixed;
+    border-style: solid;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    top: 400px;
+    left: 250px;
+}
