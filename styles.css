@@ -1,11 +1,13 @@
 h1 {
   display: flex;
   border-style: solid;
+  background-color: orange;
   justify-content: center;
   width: 100%;
 }
 .main-content {
   border-style: solid;
+  background-color: burlywood;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -20,6 +22,7 @@ h1 {
   display: flex;
   position: relative;
   border-style: solid;
+  background-color: sandybrown;
   border-radius: 15px;
   justify-content: space-around;
   flex-direction: column;
@@ -32,6 +35,7 @@ nav {
   display: flex;
   position: fixed;
   border-style: solid;
+  background-color: orange;
   bottom: 0;
   width: 100%;
   height: 50px;
@@ -53,5 +57,9 @@ nav {
   right: 10px;
 }
 button:hover {
-  background-color: aqua;
+  background-color: crimson;
+}
+button {
+  background-color: coral;
+  border-radius: 5px;
 }
