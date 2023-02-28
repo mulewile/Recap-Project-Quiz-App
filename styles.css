@@ -52,7 +52,7 @@ nav {
 .mark {
   display: flex;
   position: absolute;
-  height: 4rem;
+  height: 5rem;
   top: -15px;
   right: 10px;
 }
@@ -61,5 +61,5 @@ button:hover {
 }
 button {
   background-color: coral;
-  border-radius: 5px;
+  border-radius: 10px;
 }
