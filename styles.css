@@ -15,14 +15,10 @@ h1 {
   height: 890px;
   margin: 0 auto;
 }
-.mark {
-  display: flex;
-  position: fixed;
-  color: aquamarine;
-}
 
 .question-card {
   display: flex;
+  position: relative;
   border-style: solid;
   border-radius: 15px;
   justify-content: space-around;
@@ -31,9 +27,7 @@ h1 {
   width: 450px;
   height: 250px;
 }
-.answer {
-  display: flex;
-}
+
 nav {
   display: flex;
   position: fixed;
@@ -49,14 +43,14 @@ nav {
 .tabs {
   display: flex;
   justify-content: space-around;
+  border-radius: 15px;
 }
 .mark {
   display: flex;
   position: absolute;
-  color: aquamarine;
-  width: 5rem;
-  top: 100px;
-  right: 250px;
+  height: 4rem;
+  top: -15px;
+  right: 10px;
 }
 button:hover {
   background-color: aqua;
