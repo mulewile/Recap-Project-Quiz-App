@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+
     <title>Quiz App</title>
   </head>
   <body>
     <main class="main-content">
       <h1 id="home1">Quiz App</h1>
-
       <section class="question-card">
         <p>What is CSS?</p>
         <button class="answer">Show Answer</button>
-        <button class="mark">Mark</button>
+        <button type="button" class="mark--button" data-js="mark--button">
+          Mark
+        </button>
         <div class="tags">
           <button>#html</button>
           <button>#flexbox</button>
@@ -24,7 +26,7 @@
       <section class="question-card">
         <p>What is a Pixel?</p>
         <button class="answer">Show Answer</button>
-        <button class="mark">Mark</button>
+        <button type="button" class="mark--button">Mark</button>
         <div class="tags">
           <button>#pixels</button>
           <button>#line</button>
@@ -38,4 +40,5 @@
       <button class="profile">Profile</button>
     </nav>
   </body>
+  <script src="index.js"></script>
 </html>

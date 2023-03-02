@@ -49,12 +49,16 @@ nav {
   justify-content: space-around;
   border-radius: 15px;
 }
-.mark {
+.mark--button {
   display: flex;
   position: absolute;
   height: 5rem;
   top: -15px;
   right: 10px;
+}
+.marked--dark {
+  background-color: cadetblue;
+  font-weight: bold;
 }
 button:hover {
   background-color: crimson;
