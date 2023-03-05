@@ -57,13 +57,18 @@ nav {
   right: 10px;
 }
 .marked--dark {
-  background-color: cadetblue;
+  background-color: rgb(76, 89, 112);
+  color: aliceblue;
+  font-weight: bold;
+}
+.marked--light {
+  background-color: rgb(89, 138, 187);
   font-weight: bold;
 }
 button:hover {
-  background-color: crimson;
+  background-color: rgb(221, 150, 36);
 }
 button {
-  background-color: coral;
+  background-color: rgb(153, 164, 164);
   border-radius: 10px;
 }

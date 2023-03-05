@@ -9,9 +9,9 @@
     <title>Quiz App</title>
   </head>
   <body>
-    <main class="main-content">
+    <main class="main-content" data-js="main">
       <h1 id="home1">Quiz App</h1>
-      <section class="question-card">
+      <section class="question-card" data-js="questions">
         <p>What is CSS?</p>
         <button class="answer">Show Answer</button>
         <button type="button" class="mark--button" data-js="mark--button">
@@ -23,10 +23,12 @@
           <button>#css</button>
         </div>
       </section>
-      <section class="question-card">
+      <section class="question-card" data-js="questions--one">
         <p>What is a Pixel?</p>
         <button class="answer">Show Answer</button>
-        <button type="button" class="mark--button">Mark</button>
+        <button type="button" class="mark--button" data-js="markbutton--one">
+          Mark
+        </button>
         <div class="tags">
           <button>#pixels</button>
           <button>#line</button>
